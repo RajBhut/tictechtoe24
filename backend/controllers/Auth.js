@@ -19,7 +19,6 @@ exports.signup = async (req, res) => {
       email,
       password,
       confirmPassword,
-      accountType,
       contactNumber,
       otp,
     } = req.body
